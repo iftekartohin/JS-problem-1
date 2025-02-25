@@ -1,0 +1,12 @@
+function getNextInteger() {
+    let input = parseInt(prompt("Enter an integer:"));
+    console.log("The next integer is:", input + 1);
+}
+
+getNextInteger();
+console.log("Even numbers from 1 to 100:");
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
